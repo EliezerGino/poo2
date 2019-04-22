@@ -1,7 +1,6 @@
 
 class Cliente{
-  String titular;
-  int conta;
-  String numConta;
-  double saldo = 500.00;
+  String nome;
+  int idade;
+  String cpf;
 }
