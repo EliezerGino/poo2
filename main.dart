@@ -1,12 +1,12 @@
 import 'cliente.dart';
-import 'caixaEletronico.dart';
+import 'banco.dart';
 void main(){
   var cliente = new Cliente();
-  var operacoes = new Operacoes();
+  var conta = new Conta();
 
   cliente.titular = 'Eliezer Castro';
   cliente.conta = 11209;
   cliente.numConta =  '2553-8';
 
-  operacoes.sacar();
+  conta.sacar();
 }

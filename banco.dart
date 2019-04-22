@@ -1,6 +1,20 @@
 import 'cliente.dart';
 import 'dart:io';
 
+
+class Conta{
+  Cliente titular;
+
+//métodos: sacar, depositar, transferir e extrato
+// eles somente terão a responsabilidade de fazer o que é deles
+}
+
+
+class CaixaEletronico {
+  //Aqui é o lugar de manipular as cédulas e fazer os saques
+}
+
+
 class Operacoes{
   var cliente = new Cliente();
 
